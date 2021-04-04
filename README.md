@@ -1,6 +1,6 @@
 # CKEditor 5 Basic Inline Build
 
-Simple CKEditor5 inline basic build.
+Basic CKEditor5 inline build.
 
 ![Preview Image](sample/preview-image.gif "Preview Image of Basic Inline Editor")
 
