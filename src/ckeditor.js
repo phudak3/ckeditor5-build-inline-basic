@@ -21,16 +21,10 @@ import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough.js
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
 import WordCount from '@ckeditor/ckeditor5-word-count/src/wordcount.js';
-
-import Emoji from '@phudak/ckeditor5-emoji/src/emoji';
-import EmojiPeople from "@phudak/ckeditor5-emoji/src/emoji-people";
-import EmojiNature from "@phudak/ckeditor5-emoji/src/emoji-nature";
-import EmojiFood from "@phudak/ckeditor5-emoji/src/emoji-food";
-import EmojiActivity from "@phudak/ckeditor5-emoji/src/emoji-activity";
-import EmojiObjects from "@phudak/ckeditor5-emoji/src/emoji-objects";
-import EmojiPlaces from "@phudak/ckeditor5-emoji/src/emoji-places";
-import EmojiSymbols from "@phudak/ckeditor5-emoji/src/emoji-symbols";
-import EmojiFlags from "@phudak/ckeditor5-emoji/src/emoji-flags";
+import {
+	Emoji, EmojiActivity, EmojiFlags, EmojiFood, EmojiNature, EmojiObjects, EmojiPeople,
+	EmojiPlaces, EmojiSymbols
+} from '@phudak/ckeditor5-emoji/src';
 
 export default class BasicInlineEditor extends InlineEditorBase {}
 
